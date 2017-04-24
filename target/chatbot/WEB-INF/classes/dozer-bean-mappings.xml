@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>com.automation.dto.EventDTO</class-a>
+        <class-b>com.automation.model.Event</class-b>   
+    </mapping>
+    
+    <mapping>
+        <class-a>com.automation.dto.FacebookPageDTO</class-a>
+        <class-b>com.automation.model.FacebookPage</class-b>
+        <field>
+            <a>location.city</a>
+            <b>city</b>
+        </field>   
+        <field>
+            <a>location.country</a>
+            <b>country</b>
+        </field>   
+        <field>
+            <a>location.latitude</a>
+            <b>latitude</b>
+        </field>   
+        <field>
+            <a>location.longitude</a>
+            <b>longitude</b>
+        </field>   
+        <field>
+            <a>location.street</a>
+            <b>street</b>
+        </field>
+        <field>
+            <a>location.zip</a>
+            <b>zip</b>
+        </field>  
+        <field>
+            <a>cover.source</a>
+            <b>coverUrl</b>
+        </field>    
+    </mapping>
+    
+</mappings> 

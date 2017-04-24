@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+<!--        <property name="hibernate.connection.autocommit">true</property>-->
+<!--        <property name="hibernate.current_session_context_class">thread</property>-->
+<!--        <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>-->
+        <property name="hbm2ddl.auto">update</property>
+<!--        <property name="org.joda.time.contrib.hibernate.PersistentDateTime">dateTime</property>-->
+        <property name="jadira.usertype.autoRegisterUserTypes">true</property>
+
+<!--        <property name="spring.jpa.properties.jadira.usertype.autoRegisterUserTypes">true</property>-->
+<!--        <mapping class="com.payumoney.elasticsearch.model.elasticsearch.SmsTransRun"></mapping>  -->
+    </session-factory>
+</hibernate-configuration>
