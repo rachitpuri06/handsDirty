@@ -28,4 +28,10 @@ public class EventCollectorController {
         return "hello world";
     }
     
+    @RequestMapping(value = "/aws", method = RequestMethod.GET, headers = "Accept=application/json")
+    public @ResponseBody Object awsTest(){
+        
+        return "Let's kick some ass";
+    }
+    
 }
